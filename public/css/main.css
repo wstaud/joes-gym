@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'athletic';
+	src: url('/resources/fonts/Athletic.TTF'); 
+}
+
+section {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background: #bcbcbc;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: "athletic";
+}
+
+h2 {
+    font-size: 230%;
+    font-weight: 800;
+    padding-bottom: 3%;
+}
+
+.top-gap {
+    margin-top: 20px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    position: absolute;
+    opacity: .6;
+}
+
+.landing-text {
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.footer {
+    background: #000;
+    color: #FFF;
+}
+
+.fitImg {
+    width: 400px;
+    height: 400px;
+}
+
+#light {
+    color: #d6d4d4;
+}
+
+#title {
+    color: #c60000;
+}
+
+#sub-title {
+    color: #FFF;
+}
