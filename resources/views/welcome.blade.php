@@ -36,16 +36,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="/about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Join</a>
+                        <a class="nav-link" href="/join">Join</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
                     <img src="/resources/imgs/crew.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-lg-6">
-                    <h2>WHAT JOE'S IS ABOUT</h2>
+                    <h2>WELCOME TO JOE'S GYM</h2>
                     <p>Joe's Gym, located in San Antonio, isn't your average gym. We aren't your fancy pick-up-chicks gym. We are for those who are serious about pumping iron. We are for those who are serious about getting into shape. We are for those who are serious about lifting themselves up to a new level of power.</p>
                     <p>This is a hardcore, screamin' in-your-face, don't go home till you you've finished the mission, rock & roll gym.</p>
                 </div>
@@ -73,11 +73,11 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <div class="row justify-content-center top-gap">
-                    <img class="fitImg" src="/resources/imgs/logo.png" alt="Joe's Logo">
+                <div class="row justify-content-center">
+                    <img class="fitImg top-gap" src="/resources/imgs/logo.png" alt="Joe's Logo">
                 </div>
                 <div class="row justify-content-center text-center">
-                    <h2>3700 FREDERICKSBURG RD STE 111 <br>SAN ANTONIO TX 78201 <br>XXX XXX XXXX</h2>
+                    <h2>3700 FREDERICKSBURG RD STE 111 <br>SAN ANTONIO TX 78201 <br>210-257-9287</h2>
                 </div>
                 <div class="row justify-content-center">
                         <button type="button" class="btn btn-outline-secondary">top</button>
